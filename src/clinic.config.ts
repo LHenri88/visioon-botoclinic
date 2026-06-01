@@ -50,25 +50,25 @@ export const CLINIC = {
       "id": "botox",
       "name": "Toxina Botulínica",
       "desc": "O fim das rugas e linhas de expressão.",
-      "img": "https://images.unsplash.com/photo-1571442463800-1337d7af9d2f?w=800"
+      "img": "https://botoclinic.com/wp-content/uploads/2025/11/servico-3.png"
     },
     {
       "id": "preenchimento-labial",
       "name": "Preenchimento",
       "desc": "Lábios, olheiras, mandíbula e mais.",
-      "img": "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800"
+      "img": "https://botoclinic.com/wp-content/uploads/2025/11/servico-1.png"
     },
     {
       "id": "harmonizacao-facial",
       "name": "Ultraformer III",
       "desc": "Efeito lifting e combate à flacidez da sua pele.",
-      "img": "https://images.unsplash.com/photo-1620331311520-246422fd82f9?w=800"
+      "img": "https://botoclinic.com/wp-content/uploads/2025/11/servico-2.jpg"
     },
     {
       "id": "bioestimulador",
       "name": "Bioestimulador",
       "desc": "Estimule o colágeno natural da sua pele.",
-      "img": "https://images.unsplash.com/photo-1559599101-f09722fb4948?w=800"
+      "img": "https://botoclinic.com/wp-content/uploads/2025/11/servico-4.png"
     }
   ],
   "best_sellers": [
@@ -100,6 +100,19 @@ export const CLINIC = {
       "text": "Sempre muito bem atendida, profissionais super capacitadas.",
       "author": "Soraya Lapa · São Paulo · SP"
     }
-  ]
+  ],
+  "images": {
+    "hero": "https://botoclinic.com/wp-content/uploads/2025/11/sobre.png",
+    "promo_banners": [
+      "https://botoclinic.com/wp-content/uploads/2026/01/Banner-wellness-spa_3.png",
+      "https://botoclinic.com/wp-content/uploads/2025/12/banner-app_desktop.png"
+    ],
+    "procedures": {
+      "botox": "https://botoclinic.com/wp-content/uploads/2025/11/servico-3.png",
+      "harmonizacao-facial": "https://botoclinic.com/wp-content/uploads/2025/11/servico-2.jpg",
+      "preenchimento-labial": "https://botoclinic.com/wp-content/uploads/2025/11/servico-1.png",
+      "bioestimulador": "https://botoclinic.com/wp-content/uploads/2025/11/servico-4.png"
+    }
+  }
 } as const;
 export type ClinicConfig = typeof CLINIC;
