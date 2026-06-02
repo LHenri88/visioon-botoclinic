@@ -50,25 +50,25 @@ export const CLINIC = {
       "id": "botox",
       "name": "Toxina Botulínica",
       "desc": "O fim das rugas e linhas de expressão.",
-      "img": "https://botoclinic.com/wp-content/uploads/2025/11/servico-3.png"
+      "img": "/img/servico-3-41abe4.png"
     },
     {
       "id": "preenchimento-labial",
       "name": "Preenchimento",
       "desc": "Lábios, olheiras, mandíbula e mais.",
-      "img": "https://botoclinic.com/wp-content/uploads/2025/11/servico-1.png"
+      "img": "/img/servico-1-07b094.png"
     },
     {
       "id": "harmonizacao-facial",
       "name": "Ultraformer III",
       "desc": "Efeito lifting e combate à flacidez da sua pele.",
-      "img": "https://botoclinic.com/wp-content/uploads/2025/11/servico-2.jpg"
+      "img": "/img/servico-2-c27f56.jpg"
     },
     {
       "id": "bioestimulador",
       "name": "Bioestimulador",
       "desc": "Estimule o colágeno natural da sua pele.",
-      "img": "https://botoclinic.com/wp-content/uploads/2025/11/servico-4.png"
+      "img": "/img/servico-4-756659.png"
     }
   ],
   "best_sellers": [
@@ -102,16 +102,16 @@ export const CLINIC = {
     }
   ],
   "images": {
-    "hero": "https://botoclinic.com/wp-content/uploads/2025/11/sobre.png",
+    "hero": "/img/sobre-cdc284.png",
     "promo_banners": [
-      "https://botoclinic.com/wp-content/uploads/2026/01/Banner-wellness-spa_3.png",
-      "https://botoclinic.com/wp-content/uploads/2025/12/banner-app_desktop.png"
+      "/img/Banner-wellness-spa-3-19c56b.png",
+      "/img/banner-app-desktop-374aa8.png"
     ],
     "procedures": {
-      "botox": "https://botoclinic.com/wp-content/uploads/2025/11/servico-3.png",
-      "harmonizacao-facial": "https://botoclinic.com/wp-content/uploads/2025/11/servico-2.jpg",
-      "preenchimento-labial": "https://botoclinic.com/wp-content/uploads/2025/11/servico-1.png",
-      "bioestimulador": "https://botoclinic.com/wp-content/uploads/2025/11/servico-4.png"
+      "botox": "/img/servico-3-41abe4.png",
+      "harmonizacao-facial": "/img/servico-2-c27f56.jpg",
+      "preenchimento-labial": "/img/servico-1-07b094.png",
+      "bioestimulador": "/img/servico-4-756659.png"
     }
   }
 } as const;
